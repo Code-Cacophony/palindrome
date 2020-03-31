@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="./css/styles.css" type="text/css" rel="stylesheet">
+    <script src="./js/jquery-3.4.1.js"></script>
+    <script src="./js/scripts.js"></script>
+    <title>Palindromes</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Palindrome</h1>
+      <p>Enter a word below and this site will identify whether or not your word is a palindrome.</p>
+      <form id="palindrome-detector">
+        <div class="form-group">
+          <label for="phrase">Let's find out!</label>
+          <input type="text" id="phrase" required>
+        </div>
+        <button type="submit" class="btn btn-primary">!GO OG!</button>
+      </form>
+
+      <div class="results">
+        <p><span id="finalResult"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
