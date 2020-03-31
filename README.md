@@ -19,7 +19,7 @@ _This exercise allows the webpage to accept user input and determine wheter or n
 
 ## Known Bugs
 
-No known buggs at the time of this version.
+This version is not yet functional and is a work in progress.
 
 ## Support and contact details
 
